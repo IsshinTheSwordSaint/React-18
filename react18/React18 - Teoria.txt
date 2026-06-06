@@ -1,2 +1,0 @@
-Style przyjmuje obiekt JavaScript ({{ background: 'blue' }}), dlatego drugi sposób jest błędny, bo używa zwykłego stringa HTML. 
-Używamy className zamiast class, bo class jest zarezerwowanym słowem w JavaScript.
