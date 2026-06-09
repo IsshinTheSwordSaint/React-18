@@ -1,15 +1,2 @@
-Pytanie: Wyjaśnij różnicę między następującymi sposobami dodania stylu w React i powiedz, dlaczego drugi sposób jest błędny: 
-
-// Sposób 1 
-
-<button style={{ background: 'blue', color: 'white' }}>Kliknij</button> 
-
-  
-
-// Sposób 2 
-
-<button style="background: blue; color: white;">Kliknij</button> 
-
-  
-
-Dlaczego w React używamy className zamiast class? 
+Style przyjmuje obiekt JavaScript ({{ background: 'blue' }}), dlatego drugi sposób jest błędny, bo używa zwykłego stringa HTML. 
+Używamy className zamiast class, bo class jest zarezerwowanym słowem w JavaScript.
